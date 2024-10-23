@@ -1,0 +1,14 @@
+"0","# using the pre_export data, identify cohorts that reach the 
+# cohort number and sex ratio benchmarks that Elisa had identified
+# they are: sex ratio can only be 
+# at most, disproportionate at 65:35
+# end result includes 29 cohorts - similar to Elisa's data containing 21 cohorts
+# may include a cohort number cutoff of 16 (to be similar to Elisa) later on 
+# if need be. right now minimum number per cohort is 9. 
+cohorts <- pre_export %>% group_by(Study_Name) %>% mutate(cohort_total = n()) %>% 
+group_by(Study_Name, Mouse_Sex, cohort_total) %>% summarise(count = n()) %>% 
+mutate(percent_of_cohort = (count/cohort_total)*100) %>% ungroup() %>%
+group_by(Study_Name) %>%
+filter(percent_of_cohort >= 35 & percent_of_cohort <= 65)
+"
+"2","`summarise()` has grouped output by 'Study_Name', 'Mouse_Sex'. You can override using the `.groups` argument."

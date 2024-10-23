@@ -1,0 +1,4 @@
+"0","gf <- read_csv(""data/NewScans4Jason.csv"")
+"
+"2","Error: 'data/NewScans4Jason.csv' does not exist in current working directory ('/Users/phamlk/Desktop/mouse data').
+"

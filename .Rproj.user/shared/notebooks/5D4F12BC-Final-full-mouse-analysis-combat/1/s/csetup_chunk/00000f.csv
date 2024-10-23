@@ -1,0 +1,9 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","options(width = 300)"
+"0","library(RMINC)"
+"0","library(data.tree)"
+"0","library(grid)"
+"0","library(PupillometryR)"
+"2","Error in library(PupillometryR) : 
+  there is no package called ‘PupillometryR’
+"

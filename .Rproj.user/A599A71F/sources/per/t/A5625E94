@@ -1,0 +1,27 @@
+{
+    "id": "A5625E94",
+    "path": "~/Desktop/data-clean-mouse/functions/grab_cohorts.R",
+    "project_path": "functions/grab_cohorts.R",
+    "type": "r_source",
+    "hash": "1320770981",
+    "contents": "",
+    "dirty": false,
+    "created": 1720465865038.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,16",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1686733701,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1686733701,
+    "read_only": false,
+    "read_only_alternatives": []
+}
